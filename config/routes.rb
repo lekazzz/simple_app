@@ -2,7 +2,7 @@ SimpleApp::Application.routes.draw do
   root  'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get', as: 'help'
   match '/about',   to: 'static_pages#about',   via: 'get', as: 'about'
-  match '/contacts', to: 'static_pages#contacts', via: 'get', as: 'contscts'
+  match '/contacts', to: 'static_pages#contacts', via: 'get', as: 'contacts'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
